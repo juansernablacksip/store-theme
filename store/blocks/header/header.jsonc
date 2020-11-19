@@ -29,7 +29,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "¡BLACK FRIDAY - 50% DE DESCUENTO!"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -42,8 +42,7 @@
     },
     "children": [
       "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.col#spacer"
     ]
   },
   "flex-layout.col#spacer": {
@@ -92,7 +91,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://i.pinimg.com/originals/e8/6f/e9/e86fe9c6bbf562f1c386a55cdf8b00d7.jpg",
       "width": "180"
     }
   },
@@ -136,7 +135,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://img.skatewarehouse.com/fpcache/70/icons_logos/DGK.png",
       "width": "70"
     }
   }

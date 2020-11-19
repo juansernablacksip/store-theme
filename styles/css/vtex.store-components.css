@@ -1,6 +1,6 @@
 .notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+  background-color: #ffffff;
+  color: #000000;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
@@ -13,12 +13,12 @@
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
-  background-color: #e6f1e6;
+  background-color: #000000;
   padding: 0px;
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: #1d1d1d;
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -50,7 +50,7 @@
 }
 
 .inputGroup :global(.vtex-button) {
-  background-color: transparent;
+  background-color: #510080;
   color: #fff;
   border: none;
   margin-right: -24px;
@@ -111,7 +111,7 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
+  color: #ffffff;
   font-weight: bold;
   font-size: 30px;
 }

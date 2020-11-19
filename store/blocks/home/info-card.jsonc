@@ -1,0 +1,28 @@
+{
+    "info-card#longboards": {
+        "props": {
+          "id": "info-card-longboards",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "imageUrl": "https://images.pexels.com/photos/5026424/pexels-photo-5026424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+          "headline": "Longboards",
+          "callToActionText": "Comprar ahora",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-longboards",
+          "textAlignment": "center"
+        }
+      },
+      "info-card#street": {
+        "props": {
+          "id": "info-card-street",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "imageUrl": "https://cdn.pixabay.com/photo/2019/02/22/12/21/sports-4013437_960_720.jpg",
+          "headline": "Skateboards",
+          "callToActionText": "Comprar ahora",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-street",
+          "textAlignment": "center"
+        }
+      }
+}

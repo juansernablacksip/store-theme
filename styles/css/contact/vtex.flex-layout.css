@@ -6,7 +6,7 @@
 .flexRowContent--contact :global(.vtex-input__label),
 .flexRowContent--contact :global(.vtex-textarea__label) {
   font-size: 1rem;
-  color: #3f3f40;
+  color: #ffffff;
 }
 
 .flexRowContent--contact :global(.vtex-input),
