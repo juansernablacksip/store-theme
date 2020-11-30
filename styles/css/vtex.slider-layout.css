@@ -6,10 +6,10 @@
 }
 
 .sliderTrackContainer {
-  max-width: 1520px;
+  max-width: 100%;
 }
 
-.paginationDotsContainer {
+.paginationDotsContainer--carousel {
   margin-top: .5rem;
   margin-bottom: .5rem;
 }

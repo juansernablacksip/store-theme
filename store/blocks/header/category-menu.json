@@ -4,38 +4,44 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-hombres",
+      "menu-item#category-mujeres",
+      "menu-item#niños",
+      "menu-item#deportes",
+      "menu-item#marcas",
+      "menu-item#ofertas",
+      "menu-item#nueva-colección"
     ]
   },
-  "menu-item#category-apparel": {
+
+
+  "menu-item#category-hombres": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-category-hombres",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/Hombres/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Hombres",
+        "text": "Hombres"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-hombres"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-hombres": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-hombres"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-hombres": {
     "props": {
       "orientation": "vertical"
     },
@@ -90,22 +96,92 @@
       }
     }
   },
-  "menu-item#category-home": {
+
+
+
+  "menu-item#category-mujeres": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-mujeres",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/Mujeres/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Mujeres",
+        "text": "Mujeres"
       }
     }
   },
-  "menu-item#more": {
+
+
+  "menu-item#deportes": {
+    "props": {
+      "id": "menu-item-deportes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Deportes/",
+        "noFollow": false,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    }
+  },
+
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Marcas/",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    }
+  },
+
+  "menu-item#ofertas": {
+    "props": {
+      "id": "menu-item-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Ofertas/",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      }
+    }
+  },
+
+  "menu-item#nueva-colección": {
+    "props": {
+      "id": "menu-item-nueva-colección",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Nueva-colección/",
+        "noFollow": false,
+        "tagTitle": "Nueva colección",
+        "text": "Nueva colección"
+      }
+    }
+  },
+
+
+  "menu-item#niños": {
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
@@ -115,39 +191,39 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Kids",
+        "text": "Kids"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#more"
+      "vtex.menu@2.x:submenu#niños"
     ]
   },
-  "vtex.menu@2.x:submenu#more": {
+  "vtex.menu@2.x:submenu#niños": {
     "props": {
       "width": "100%"
     },
     "children": [
-      "flex-layout.row#menu-more"
+      "flex-layout.row#menu-niños"
     ]
   },
-  "flex-layout.row#menu-more": {
+  "flex-layout.row#menu-niños": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-niños-1",
+      "flex-layout.col#menu-niños-2"
     ]
   },
-  "flex-layout.col#menu-more-1": {
+  "flex-layout.col#menu-niños-1": {
     "children": [
-      "vtex.menu@2.x:menu#more"
+      "vtex.menu@2.x:menu#niños"
     ]
   },
-  "flex-layout.col#menu-more-2": {
+  "flex-layout.col#menu-niños-2": {
     "children": [
       "info-card#home"
     ]
   },
-  "vtex.menu@2.x:menu#more": {
+  "vtex.menu@2.x:menu#niños": {
     "props": {
       "orientation": "vertical"
     },

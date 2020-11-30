@@ -1,3 +1,9 @@
+.container--deals .link{
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
 .container--deals {
   color: #ffffff;
   text-align: center;
@@ -5,7 +11,7 @@
 }
 
 .container--shelfTitle {
-  color: #727273;
+  color: #000000;
   justify-content: center;
   text-align: center;
 }
@@ -55,10 +61,9 @@
 }
 
 .container--link .link {
-  text-decoration: none;
   font-size: 36px;
   font-weight: 300;
-  color: #03034E;
+  color: #FFFFFF;
 }
 
 .container--title {

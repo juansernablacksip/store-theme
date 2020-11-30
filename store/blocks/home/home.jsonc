@@ -1,32 +1,28 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "list-context.image-list#demo",
+      "flex-layout.row#shelf-nuevos-productos",
       "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
       "newsletter"
     ]
   },
 
+  
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": 720,
+      "fullWidth": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://cdnmedia.triathlon.com.pe/media/wysiwyg/banner-home-future-rider-05102020.jpg",
+          "mobileImage": "https://cdnmedia.triathlon.com.pe/media/wysiwyg/banner-home-future-rider-05102020.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://cdnmedia.triathlon.com.pe/media/wysiwyg/banner-home-triathlon-cyber-22112020.jpg",
+          "mobileImage": "https://cdnmedia.triathlon.com.pe/media/wysiwyg/banner-home-triathlon-cyber-22112020.jpg"
         }
       ]
     }
@@ -39,16 +35,30 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
       "blockClass": "carousel"
     }
   },
 
+
+
+  "flex-layout.row#shelf-nuevos-productos": {
+    "children": ["flex-layout.col#shelf-title", "flex-layout.col#shelf"]
+  },
+
+
+  "flex-layout.col#shelf-title": {
+    "children": ["rich-text#shelf-title"]
+  },
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## Nuevos productos",
       "blockClass": "shelfTitle"
     }
+  },
+
+  "flex-layout.col#shelf": {
+    "children": ["flex-layout.row#shelf"]
   },
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
@@ -73,31 +83,20 @@
     }
   },
 
+
+
+
   "info-card#home": {
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "imageUrl": "https://cdnmedia.triathlon.com.pe/media/wysiwyg/banner-home-nike-30102020v2.jpg",
       "headline": "Clearance Sale",
       "callToActionText": "DISCOVER",
       "callToActionUrl": "/sale/d",
       "blockClass": "info-card-home",
       "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
     }
   }
 }

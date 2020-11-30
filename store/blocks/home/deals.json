@@ -3,8 +3,7 @@
     "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "flex-layout.col#deals3"
     ],
     "props": {
       "blockClass": "deals"
@@ -13,73 +12,55 @@
 
   "flex-layout.col#deals1": {
     "children": [
-      "image#deal1",
-      "rich-text#deal1"
+      "rich-text#deal1",
+      "rich-text#deal1-link"
     ]
-  },
-  "image#deal1": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
-    }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "**10% dto. ROPA MUJER**",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal1-link": {
+    "props": {
+      "text": "[VER MAS](https://google.com)",
       "blockClass": "deals"
     }
   },
   "flex-layout.col#deals2": {
     "children": [
-      "image#deal2",
-      "rich-text#deal2"
+      "rich-text#deal2",
+      "rich-text#deal2-link"
     ]
-  },
-  "image#deal2": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
-    }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "**NUEVOS NIKE AIR**",
+      "blockClass": "deals"
+    }
+  },
+  "rich-text#deal2-link": {
+    "props": {
+      "text": "[¡LOS QUIERO!](https://google.com)",
       "blockClass": "deals"
     }
   },
   "flex-layout.col#deals3": {
     "children": [
-      "image#deal3",
-      "rich-text#deal3"
+      "rich-text#deal3",
+      "rich-text#deal3-link"
     ]
-  },
-  "image#deal3": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
-    }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "**PROMOCIÓN ADIDAS**",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals4": {
-    "children": [
-      "image#deal4",
-      "rich-text#deal4"
-    ]
-  },
-  "image#deal4": {
+  "rich-text#deal3-link": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
-    }
-  },
-  "rich-text#deal4": {
-    "props": {
-      "text": "Exclusive deals",
+      "text": "[VER TODO](https://google.com)",
       "blockClass": "deals"
     }
   }

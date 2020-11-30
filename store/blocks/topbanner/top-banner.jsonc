@@ -1,0 +1,73 @@
+{
+    "flex-layout.row#top-banner": {
+        "children": [
+            "rich-text#left-top-banner",
+            "flex-layout.col#spacer", 
+            "rich-text#right-top-banner", 
+            "image#thn"],
+        "props": {
+            "blockClass": "custom-background",
+            "fullWidth": "true",
+            "preventHorizontalStretch": "true",
+            "preventVerticalStretch": "true",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#left-top-banner": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "textColor": "c-on-base--inverted",
+            "text": "**Envio gratis desde $/.250!** [Ver condiciones](https://help.vtex.com/en/faq/what-is-vtex-io)"
+        }
+    },
+    "rich-text#right-top-banner": {
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "textColor": "c-on-base--inverted",
+            "text": "Visita tambien"
+        }
+    },
+    "image#thn": {
+        "props": {
+          "src": "https://www.triathlon.com.pe/media/wysiwyg/THN_BLANCO.png",
+          "alt": "Catálogo THN logo",
+          "maxHeight": 30,
+          "maxWidth": 70,
+          "link": "https://thn.pe/" 
+        }
+    },
+
+
+
+
+    "flex-layout.row#top-banner-mobile": {
+        "children": ["rich-text#left-top-banner-mobile", "flex-layout.col#spacer", "image#thn-mobile"],
+        "props": {
+            "blockClass": "custom-background",
+            "fullWidth": "true",
+            "preventHorizontalStretch": "true",
+            "verticalAlign": "middle",
+            "preserveLayoutOnMobile": "false"
+        }
+    },
+    "rich-text#left-top-banner-mobile": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "textColor": "c-on-base--inverted",
+            "font": "t-mini",
+            "text": "**Envio gratis desde $/.250!**"
+        }
+    },
+    "image#thn-mobile": {
+        "props": {
+          "src": "https://www.triathlon.com.pe/media/wysiwyg/THN_BLANCO.png",
+          "alt": "Catálogo THN logo",
+          "maxHeight": 30,
+          "maxWidth": 50,
+          "link": "https://thn.pe/" 
+        }
+    }
+}
